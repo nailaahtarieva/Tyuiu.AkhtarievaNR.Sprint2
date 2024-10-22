@@ -2,7 +2,7 @@
 
 namespace Tyuiu.AkhtarievaNR.Sprint2.Task0.V16.Lib
 {
-    public class DataService : ISprint2Task0V17
+    public class DataService : ISprint2Task0V16
     {
         public bool[] GetCompareOperations(int x, int y)
         {
