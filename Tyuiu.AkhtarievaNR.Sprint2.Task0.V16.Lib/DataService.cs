@@ -7,7 +7,7 @@ namespace Tyuiu.AkhtarievaNR.Sprint2.Task0.V16.Lib
         public bool[] GetCompareOperations(int x, int y)
         {
             bool[] res = new bool[6];
-
+            
             res[0] = x == y + 750;
             res[1] = x != y + 750;
             res[2] = x < y + 1000;
