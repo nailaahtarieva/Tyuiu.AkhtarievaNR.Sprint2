@@ -4,13 +4,39 @@
     {
         static void Main(string[] args)
         {
-            int a = 195;
-            int b = 16;
-            int c = 14;
-            int d = 45;
-            var res = (a >= b) ^ (c <= d);
-            Console.WriteLine(res);
-            Console.ReadKey();
+            {
+
+                int a = 0, b = 0;
+
+                a = Convert.ToInt32(Console.ReadLine());
+
+                b = Convert.ToInt32(Console.ReadLine());
+
+                if ((a < b) && (b > 9))
+
+                {
+
+                    a *= 2;
+
+                    b *= 3;
+
+                }
+
+                else
+
+                {
+
+                    a -= 3; b += 6;
+
+                }
+
+                Console.WriteLine(b + a);
+
+            }
+
+
+
+
         }
     }
 }
