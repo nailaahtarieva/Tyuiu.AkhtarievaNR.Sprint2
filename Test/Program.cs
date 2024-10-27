@@ -6,31 +6,13 @@
         {
             {
 
-                int a = 0, b = 0;
+                int y = 0, k = 3;
 
-                a = Convert.ToInt32(Console.ReadLine());
+                if (k > 0) { if (k > 5) y = 1; }
 
-                b = Convert.ToInt32(Console.ReadLine());
+                else y = 2;
 
-                if ((a < b) && (b > 9))
-
-                {
-
-                    a *= 2;
-
-                    b *= 3;
-
-                }
-
-                else
-
-                {
-
-                    a -= 3; b += 6;
-
-                }
-
-                Console.WriteLine(b + a);
+                Console.WriteLine(y);
 
             }
 
