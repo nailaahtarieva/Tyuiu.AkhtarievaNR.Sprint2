@@ -7,6 +7,7 @@ namespace Tyuiu.AkhtarievaNR.Sprint2.Task3.V9
         static void Main(string[] args)
         {
             DataService ds = new DataService();
+            //
             Console.Title = "Спринт #2 | Выполнила: Ахтариева Н. Р. | ИИПб-24-2";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
