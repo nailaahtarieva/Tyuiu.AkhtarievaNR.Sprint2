@@ -6,11 +6,9 @@
         {
             {
 
-                int y = 0, k = 3;
+                int x = 0;
 
-                if (k > 0) { if (k > 5) y = 1; }
-
-                else y = 2;
+                int y = x > 0 ? 2 * x : 3 - x;
 
                 Console.WriteLine(y);
 
