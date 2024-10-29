@@ -44,6 +44,7 @@ namespace Tyuiu.AkhtarievaNR.Sprint2.Task6.V2
             Console.WriteLine(res);
 
             Console.ReadKey();
+            //
         }
     }
 }
